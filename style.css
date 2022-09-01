@@ -325,7 +325,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -360,6 +360,24 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.container.bloc-md h2{
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+    color: #606060;
+}
+
+.comment{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.container.bloc-lg h2{
+    text-align: center;
+    max-width: 450px;
+    margin: 0 auto;
 }
 
 @media (min-width: 768px) {
@@ -677,7 +695,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
