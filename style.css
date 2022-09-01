@@ -395,6 +395,7 @@ a:hover {
     margin: -20px 0 40px 0;
 }
 
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -922,7 +923,12 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+    .img-responsive{
+        max-width: 319px;
+        margin: auto;
+    }    
+
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1066,6 +1072,11 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .img-responsive{
+        max-width: 250px;
+    }    
+
 }
 
 @media (max-width: 767px) {
