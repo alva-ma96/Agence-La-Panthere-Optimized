@@ -395,7 +395,9 @@ a:hover {
     margin: -20px 0 40px 0;
 }
 
-
+.btn-equipe{
+    text-align: center;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -1076,7 +1078,11 @@ h4 {
     .img-responsive{
         max-width: 250px;
     }    
-
+    .padding{
+        padding: 10px 20px 10px 20px;
+        font-size: 14px;
+        font-weight: 700;    
+    }
 }
 
 @media (max-width: 767px) {
