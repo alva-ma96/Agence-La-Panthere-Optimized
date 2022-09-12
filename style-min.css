@@ -735,8 +735,8 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    max-width: 500px;
+    margin: auto;
 }
 
 h2 {
@@ -844,7 +844,7 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url("img/agence-la-panthere.webp");
 }
 
 .bg-lines-h2-bg {
@@ -1086,4 +1086,9 @@ h4 {
 
 .black{
     color: #000000!important;
+}
+
+.div-header-contact{
+    font-size: 18px;
+    color: #FFF;
 }
