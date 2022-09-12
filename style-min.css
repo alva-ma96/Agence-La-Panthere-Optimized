@@ -852,11 +852,11 @@ h4 {
 }
 
 .bg-banniere {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url("img/agence-la-panthere.jpg");
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 
